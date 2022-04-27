@@ -1,0 +1,4 @@
+dependencies:
+  db:
+    github: the-business-factory/crystal-db
+    branch: db-pool-testing

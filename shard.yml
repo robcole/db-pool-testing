@@ -1,0 +1,17 @@
+name: db-pool-testing
+version: 0.1.0
+
+authors:
+  - Rob Cole <robcole@gmail.com>
+
+targets:
+  db-pool-testing:
+    main: src/db-pool-testing.cr
+
+dependencies:
+  pg:
+    github: will/crystal-pg
+
+crystal: 1.4.1
+
+license: MIT

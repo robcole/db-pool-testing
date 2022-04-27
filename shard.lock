@@ -1,0 +1,11 @@
+# NOTICE: This lockfile contains some overrides from shard.override.yml
+version: 2.0
+shards:
+  db: # Overridden
+    git: https://github.com/the-business-factory/crystal-db.git
+    version: 0.11.0+git.commit.483fdba84e0bd327eea736bf27d32e4fee181896
+
+  pg:
+    git: https://github.com/will/crystal-pg.git
+    version: 0.26.0
+
